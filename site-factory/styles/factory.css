@@ -23,4 +23,22 @@
   color: black;
 }
 
+body {
+  background-color: #1e1527;
+}
+
+a {
+  font-family: "Segoe UI", serif;
+  font-size: large;
+}
+
+#header-name {
+  font-family: "Segoe UI", serif !important;
+  font-size: x-large !important;
+}
+
+header {
+  background-color: #8B5B99;
+}
+
 /*# sourceMappingURL=factory.css.map */

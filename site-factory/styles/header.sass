@@ -6,11 +6,12 @@
       min-width: 100vw
 
 
+
       #inner-header
         width: 100%
 
-        margin-top: 25px
-        margin-bottom: 25px
+        padding-top: 10px
+        padding-bottom: 10px
 
         justify-content: space-around !important
 
@@ -23,9 +24,8 @@
 
 
           img
-            width: 5vw
+            width: 3.5vw
 
-          #header-name
 
           #name-spacer
             width: 40%
@@ -35,33 +35,40 @@
           #nav-list
             justify-content: space-around !important
 
+
+
 @media only screen and (max-width: 750px)
-  header
-    max-width: 100vw
+  body
+    margin: 0
+    header
+      max-width: 100vw
 
 
-    #inner-header
-      width: 100%
-
-      display: flex
-      flex-direction: column
-      justify-content: center
-
-      #left-header
+      #inner-header
         width: 100%
 
         display: flex
-        img
-          display: none
-      #right-header
-        display: flex
+        flex-direction: column
         justify-content: center
 
-        width: 100%
+        padding-top: 10px
+        padding-bottom: 10px
 
-        #nav-list
-          justify-content: space-around !important
+        #left-header
+          width: 100%
+
+          display: flex
+          img
+            display: none
+        #right-header
+          display: flex
+          justify-content: center
 
           width: 100%
 
-          padding: 0
+          #nav-list
+            justify-content: space-around !important
+
+            width: 100%
+
+            padding: 0
