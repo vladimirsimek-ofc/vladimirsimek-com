@@ -1,0 +1,52 @@
+@media only screen and (min-width: 750px)
+  header
+    max-width: 100vw
+
+    #inner-header
+      width: 100%
+
+
+      #left-header
+        width: 40%
+        //margin-left: 5%
+
+        justify-content: space-around !important
+
+        #name-spacer
+          width: 40%
+      #right-header
+        width: 60%
+
+        #nav-list
+          justify-content: space-around !important
+
+@media only screen and (max-width: 750px)
+  header
+    max-width: 100vw
+
+
+    #inner-header
+      width: 100%
+
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+      #left-header
+        width: 100%
+
+        display: flex
+        img
+          display: none
+      #right-header
+        display: flex
+        justify-content: center
+
+        width: 100%
+
+        #nav-list
+          justify-content: space-around !important
+
+          width: 100%
+
+          padding: 0

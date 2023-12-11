@@ -1,0 +1,26 @@
+.flex-center-full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center-vertical {
+  display: flex;
+  justify-items: center;
+}
+
+.undecorated {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.default-color {
+  color: black;
+}
+
+/*# sourceMappingURL=factory.css.map */
